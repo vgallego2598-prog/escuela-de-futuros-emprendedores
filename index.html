@@ -1077,7 +1077,7 @@
                 </div>
                 <div>
                   <label class="form-label mb-2 block" for="f-punto">Punto de partida</label>
-                  <select id="f-punto" required class="form-field">
+                  <select id="f-punto" name="punto_de_partida" required class="form-field">
                     <option value="">Seleccionar</option>
                     <option>No tiene idea todavía</option>
                     <option>Tiene una idea</option>
@@ -1095,13 +1095,13 @@
               </div>
               <div>
                 <label class="form-label mb-2 block" for="f-mensaje">Mensaje <span style="color:var(--muted);text-transform:none;letter-spacing:0">(opcional)</span></label>
-                <textarea id="f-mensaje" rows="3" class="form-field resize-none"></textarea>
+                <textarea id="f-mensaje" name="mensaje" rows="3" class="form-field resize-none"></textarea>
               </div>
             </div>
 
             <div class="mt-10 pt-6 border-t" style="border-color:var(--line)">
               <label class="flex items-start gap-3 text-[13px]" style="color:var(--ink-soft)">
-                <input type="checkbox" required class="mt-1 flex-shrink-0">
+                <input type="checkbox" name="privacidad" required class="mt-1 flex-shrink-0">
                 <span>He leído y acepto la <a href="#" class="underline" style="color:var(--accent)">política de privacidad</a>. Mis datos se usarán únicamente para contactarme sobre mi solicitud.</span>
               </label>
 
